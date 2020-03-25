@@ -1,12 +1,48 @@
-.navbar{ background: lightgreen;}
+.navbar{ background: dodgerblue;}
 
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
 
 .nav-link{ margin-right: 1em !important;}
 
-.nav-link:hover{ background: #f4f4f4; color: lightgreen}
+.nav-link:hover{ background: #f4f4f4; color: dodgerblue}
 
 .navbar-collapse{ justify-content: flex-end;}
 
 .navbar-toggler{  background:#fff !important;}
 
+.header{
+    background-image: url('../Images/header.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+   }
+   .description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
+}
+.description h1{
+ color: dodgerblue;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:2px  solid black;
+ background: blueviolet;
+ color:#fff;
+}
