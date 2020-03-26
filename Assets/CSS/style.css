@@ -14,7 +14,7 @@ body {
     background: lightgray;
 }
 
-
+/* CSS to get the hero image and overlay working */
 .header {
     background-image: url('../Images/header.jpg');
     background-size: cover;
@@ -58,6 +58,8 @@ body {
     background:#fff;
     color:#000;
   }
+
+  /* CSS for the portfolio cards and buttons*/
   .card {
     margin-bottom: 25px;
   }
